@@ -1,0 +1,93 @@
+<?
+ session_start();
+ include "../../config/admin_auth.php";
+include "../../config/admin_public_include.php";
+include "../../config/db_function.php";
+ $conn=Connect_DB($DB_VARS_ARRAY);
+ $types=$_GET['types'];
+  if($types==1){
+ 	$name="法律新闻";	
+ }
+ if($types==2){
+ 	$name="社会热点";	
+ }
+ if($types==3){
+ 	$name="经典案例";	
+ }
+ if($types==4){
+ 	$name="辩词鉴赏";	
+ }
+ if($types==5){
+ 	$name="法律法规";	
+ }
+ if($types==6){
+ 	$name="法理探讨";	
+ }
+ if($types==7){
+ 	$name="诉讼常识";	
+ }
+  if($types==8){
+ 	$name="诉讼流程";	
+ }
+ if($types==9){
+ 	$name="业务范围";	
+ }
+ if($types==10){
+ 	$name="快速帮助";	
+ }
+ $userid=$_SESSION['SESSION_ADMIN_USERID'];
+ $page_now=$_GET['page_now'];
+ if(strlen($page_now)<1){
+	 $page_now=1;
+ }
+ $sql="select * from news where types=$types order by pid";
+ $page_recs=10;
+ $rec=mysql_query($sql,$conn);
+ $total_user=mysql_num_rows($rec);
+ $pages=ceil($total_user/$page_recs);
+ if($page_now>$pages){
+	$page_now=$pages;
+ }
+ if($page_now<=1){
+	$before_page=1;
+	 if($pages>1){
+		 $after_page=$page_now+1;
+	 }else{
+		 $after_page=1;
+	 }
+ }else{
+	$before_page=$page_now-1;
+	if($page_now < $pages){
+		$after_page=$page_now+1;
+	}else{
+		$after_page=$pages;
+	}
+}
+$i=($page_now-1)*$page_recs;
+$tmpi=0;
+if($total_user>0)
+mysql_data_seek($rec,$i);
+while($row=mysql_fetch_array($rec)){
+	$userarray[$tmpi]['pid']=$row['pid'];
+    $userarray[$tmpi]['id']=$row['Id'];
+    $userarray[$tmpi]['subject']=$row['subject'];
+    $userarray[$tmpi]['content']=$row['content'];
+    $userarray[$tmpi]['instime']=date("Y-m-d H:i:s",$row['instime']);
+    $userarray[$tmpi]['url']="news_del.php?id=".$row['Id'];
+	$tmpi++;
+	if($tmpi>=$page_recs){
+		break;
+	}
+}
+$smarty->assign("types",$types);
+$smarty->assign("name",$name);
+$smarty->assign('userarray',$userarray);
+$smarty->assign("session_admin_userid",$_SESSION['SESSION_ADMIN_USERID']);
+$smarty->assign("page_now",$page_now);
+$smarty->assign("page_recs",$page_recs);
+$smarty->assign("pages",$pages);
+$smarty->assign("total_user",$total_user);
+$smarty->assign("before_page",$before_page);
+$smarty->assign("after_page",$after_page);
+$smarty->display('news.tpl');
+?>

@@ -1,0 +1,82 @@
+<?
+include "include.php";
+$type=$_GET['type'];
+if($type==1){
+ 	$name="民事法律法规";	
+ }
+ if($type==2){
+ 	$name="金融法律法规";	
+ }
+ if($type==3){
+ 	$name="公司法律法规";	
+ }
+ if($type==4){
+ 	$name="知识产权法律法规";	
+ }
+$smarty->assign("name",$name);
+$smarty->assign("type",$type);
+$page_now=$_GET['page_now'];
+ if(strlen($page_now)<1){
+	 $page_now=1;
+ }
+$sql="select * from news where types=5 order by Id desc";
+$page_recs=20;
+ $rec=mysql_query($sql,$conn);
+ $total_user=mysql_num_rows($rec);
+ $pages=ceil($total_user/$page_recs);
+ if($page_now>$pages){
+	$page_now=$pages;
+ }
+ if($page_now<=1){
+	$before_page=1;
+	 if($pages>1){
+		 $after_page=$page_now+1;
+	 }else{
+		 $after_page=1;
+	 }
+ }else{
+	$before_page=$page_now-1;
+	if($page_now < $pages){
+		$after_page=$page_now+1;
+	}else{
+		$after_page=$pages;
+	}
+}
+$i=($page_now-1)*$page_recs;
+$tmpi=0;
+if($total_user>0)
+mysql_data_seek($rec,$i);
+while($row=mysql_fetch_array($rec)){
+	$userarray[$tmpi]['id']=$row['Id'];
+	$userarray[$tmpi]['subject']=$row['subject'];
+	$userarray[$tmpi]['instime']=date("Y-m-d",$row['instime']);
+	$tmpi++;
+	if($tmpi>=$page_recs){
+		break;
+	}
+}
+$smarty->assign("userarray",$userarray);
+$smarty->assign("page_now",$page_now);
+$smarty->assign("page_recs",$page_recs);
+$smarty->assign("pages",$pages);
+$smarty->assign("total_user",$total_user);
+$smarty->assign("before_page",$before_page);
+$smarty->assign("after_page",$after_page);
+$sql="select * from news where types=5 and pic <> '' order by pid";
+$rec=mysql_query($sql,$conn);
+$i=0;
+while($row=mysql_fetch_array($rec)){
+	$array[$i]['id']=$row['Id'];
+	$array[$i]['pic']=$row['pic'];
+	$array[$i]['subject']=$row['subject'];
+	$str=$row['subject'];
+	if(strlen($str) > 18){
+		$array[$i]['subject']=wordscut($str,18)."…";
+	}else{
+		$array[$i]['subject']=$row['subject'];	
+	}
+	$i++;
+}
+$smarty->assign("array",$array);
+$smarty->display("flfg_more.tpl");
+?>

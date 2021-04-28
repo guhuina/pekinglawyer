@@ -1,0 +1,607 @@
+BODY {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.standard {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+P {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+BLOCKQUOTE {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+LABEL {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+UL {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+OL {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+DL {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H1 {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H2 {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H3 {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TH {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.standardtitle {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+A:active {
+	COLOR: #000066; TEXT-DECORATION: underline
+}
+A:unknown {
+	COLOR: #000066; TEXT-DECORATION: underline
+}
+A:link {
+	COLOR: #000066; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #000066; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #000000; BACKGROUND-COLOR: #beea69; TEXT-DECORATION: none
+}
+.map A:hover {
+	BACKGROUND-COLOR: #fff
+}
+FORM {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+LABEL {
+	FONT-WEIGHT: bold
+}
+.normal {
+	FONT-WEIGHT: normal
+}
+.text {
+	FONT-SIZE: 13px;
+
+}
+.help {
+	FONT-SIZE: 13px
+}
+.textsmall {
+	FONT-SIZE: 13px
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: medium; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.pagetitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: medium; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px
+}
+.sectiontitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px
+}
+TH {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px
+}
+.standardtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px
+}
+H4 {
+	FONT-SIZE: 1em
+}
+H5 {
+	FONT-SIZE: 0.9em
+}
+H6 {
+	FONT-SIZE: 0.8em
+}
+.imageAlign {
+	MARGIN: 0px 0px 2px; VERTICAL-ALIGN: middle
+}
+.emphasized {
+	FONT-WEIGHT: bold; COLOR: #009900
+}
+.error {
+	FONT-SIZE: 13px; COLOR: #ff0000
+}
+.error_field {
+	BORDER-RIGHT: #b8230a 2px solid; BORDER-TOP: #b8230a 2px solid; MARGIN-BOTTOM: 2px; BORDER-LEFT: #b8230a 2px solid; BORDER-BOTTOM: #b8230a 2px solid
+}
+SELECT.error_field {
+	BACKGROUND-COLOR: #b8230a
+}
+.help {
+	COLOR: #666666
+}
+.normal {
+	FONT-WEIGHT: normal
+}
+.strong {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+.drag {
+	CURSOR: move
+}
+#main {
+	
+}
+#top {
+	
+}
+#middle {
+	
+}
+#middlemargin {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 15px; PADDING-TOP: 0px
+}
+#middleleft {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#bottom {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+#content {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}
+#homeheader {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+#header {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+.headerlogo LI {
+	DISPLAY: inline; LIST-STYLE-TYPE: none
+}
+#headerright {
+	RIGHT: 10px; POSITION: absolute; TOP: 10px; TEXT-ALIGN: right
+}
+.logo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; PADDING-BOTTOM: 5px; PADDING-TOP: 20px
+}
+.location {
+	PADDING-LEFT: 2px; FONT-WEIGHT: 700; FONT-SIZE: 2em; PADDING-BOTTOM: 10px; VERTICAL-ALIGN: bottom; COLOR: #404040; LETTER-SPACING: -1px; BACKGROUND-COLOR: #ffffff
+}
+.locationsmall {
+	PADDING-LEFT: 2px; FONT-WEIGHT: 600; FONT-SIZE: 1.3em; PADDING-BOTTOM: 8px; VERTICAL-ALIGN: bottom; COLOR: #404040; LETTER-SPACING: -1px
+}
+.topnav {
+	BORDER-RIGHT: #449c09 1px solid; PADDING-RIGHT: 25px; BORDER-TOP: #0c8101 1px solid; PADDING-LEFT: 25px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/classifieds/top_bg.gif) #9ad429 repeat-x 50% bottom; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BORDER-BOTTOM: #0c8101 1px solid; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.topnavactive {
+	BORDER-RIGHT: #449c09 1px solid; PADDING-RIGHT: 25px; PADDING-LEFT: 25px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; BORDER-LEFT: #449c09 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #0c8101 1px solid; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.topnav A:link {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.topnav A:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.topnavactive A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.topnavactive A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.topnav A:hover {
+	COLOR: #333; BACKGROUND-COLOR: #fefc6e
+}
+.topnavactive A:hover {
+	COLOR: #333; BACKGROUND-COLOR: #fefc6e
+}
+.title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 135%; PADDING-BOTTOM: 0px; MARGIN: 15px 0px 0px; PADDING-TOP: 0px
+}
+.footer {
+	PADDING-RIGHT: 0px; BORDER-TOP: #bec3c7 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px 0px 0px 15px; PADDING-TOP: 10px; BACKGROUND-COLOR: #ffffff
+}
+.footer UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.footer LI {
+	BORDER-RIGHT: gray 1px solid; PADDING-RIGHT: 5px; DISPLAY: inline; PADDING-LEFT: 5px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #676b5c; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.footer .lastitem {
+	BORDER-RIGHT: 0px
+}
+.partners {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; MARGIN: 0px 0px 0px 15px; PADDING-TOP: 15px; BACKGROUND-COLOR: #ffffff
+}
+.partners UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.partners LI {
+	PADDING-RIGHT: 5px; DISPLAY: inline; PADDING-LEFT: 5px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #676b5c; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.partners LI A {
+	COLOR: #676b5c
+}
+.partners LI A:visited {
+	COLOR: #676b5c
+}
+.field {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px
+}
+.field_closest {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.epsfield {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px
+}
+.catlist .listtitle {
+	FONT-WEIGHT: bold; LINE-HEIGHT: 1.4em
+}
+.catlist .listtitle A {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.1em
+}
+.catlist UL {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px 5px 5px 0px; PADDING-TOP: 0px
+}
+.catlist LI {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 10px; FONT-SIZE: 11px; BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/classifieds/bullet.gif) no-repeat 0em 0.7em; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #666666; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.catlist A {
+	FONT-SIZE: 13px
+}
+#homecatgroup .listtitle A {
+	FONT-WEIGHT: bold
+}
+#homecatgroup .listtitle {
+	FONT-WEIGHT: normal
+}
+#catgroup .listtitle {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 15px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 1.1em; PADDING-BOTTOM: 0px; LINE-HEIGHT: 125%; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.listmodule {
+	PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #fef8ce
+}
+.listmodule .listtitle {
+	PADDING-RIGHT: 8px; BORDER-TOP: #ceb503 1px solid; DISPLAY: block; PADDING-LEFT: 8px; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #ceb503 1px solid; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #fdeb6b
+}
+.listmodule LI {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; COLOR: #666666; PADDING-TOP: 2px
+}
+.listmodule LI A {
+	FONT-SIZE: 13px; COLOR: #000000
+}
+#otherareas {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px 0px 0px 10px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff
+}
+#othersites {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px 0px 0px 10px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff
+}
+#otherareas .listtitle {
+	FONT-WEIGHT: normal; MARGIN: 0px; WHITE-SPACE: nowrap
+}
+#othersites .listtitle {
+	FONT-WEIGHT: normal; MARGIN: 0px; WHITE-SPACE: nowrap
+}
+#otherareas H1 {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #676b5c; PADDING-TOP: 0px
+}
+#othersites H1 {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #676b5c; PADDING-TOP: 0px
+}
+#otherareas UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#othersites UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#otherareas LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #676b5c; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#othersites LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #676b5c; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#otherareas A {
+	WHITE-SPACE: nowrap
+}
+#othersites A {
+	WHITE-SPACE: nowrap
+}
+.safety_message {
+	BORDER-RIGHT: #bdbdbd 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #bdbdbd 1px solid; PADDING-LEFT: 20px; FONT-SIZE: 13px; BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/classifieds/safety_icon.gif) #eaeaea no-repeat 0.2em 0.4em; PADDING-BOTTOM: 3px; MARGIN: 0px; BORDER-LEFT: #bdbdbd 1px solid; COLOR: #5d5d5d; PADDING-TOP: 3px; BORDER-BOTTOM: #bdbdbd 1px solid
+}
+.p {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN: 15px 0px 0px; PADDING-TOP: 0px
+}
+#adactionlist LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/classifieds/bullet.gif) no-repeat 0em 0.5em; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px
+}
+.titlebar {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 1px; PADDING-TOP: 4px; BORDER-BOTTOM: #ceb503 1px solid; BACKGROUND-COLOR: #fdeb6b
+}
+.titlebarHome {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 5px; PADDING-TOP: 8px; BORDER-BOTTOM: #ceb503 1px solid; BACKGROUND-COLOR: #fdeb6b
+}
+#adactionlist LI UL LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#pagestatus {
+	BORDER-RIGHT: #c3c3c3 2px solid; PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 8px; MARGIN: 0px 15px; BORDER-LEFT: #c3c3c3 2px solid; COLOR: #000000; LINE-HEIGHT: normal; PADDING-TOP: 15px; BORDER-BOTTOM: #c3c3c3 2px solid; FONT-STYLE: normal; BACKGROUND-COLOR: #ffffff; FONT-VARIANT: normal
+}
+#pagestatus .pagestatus_sucess {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 45px; BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/classifieds/success_icon.gif) #cff28b no-repeat 0.5em 50%; PADDING-BOTTOM: 10px; MARGIN: 0px 25px; PADDING-TOP: 10px
+}
+#pagestatus .pagestatus_error {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 45px; BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/classifieds/fail_icon.gif) #fe643d no-repeat 0.5em 50%; PADDING-BOTTOM: 10px; MARGIN: 0px 25px; COLOR: #fff; PADDING-TOP: 10px
+}
+#pagestatus .pagestatus_tip {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 45px; BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/classifieds/safety_icon.gif) #fcffcb no-repeat left 50%; PADDING-BOTTOM: 5px; MARGIN: 0px 25px; PADDING-TOP: 8px
+}
+#pagestatus A {
+	FONT-WEIGHT: normal
+}
+#ReplyToAdForm LABEL {
+	FONT-WEIGHT: normal
+}
+#pagepromo {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 8px; MARGIN: 0px 15px; COLOR: #000000; LINE-HEIGHT: normal; PADDING-TOP: 15px; FONT-STYLE: normal; BACKGROUND-COLOR: #ffffff; FONT-VARIANT: normal
+}
+#pagepromo .pagepromo_inner {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 45px; PADDING-BOTTOM: 10px; MARGIN: 0px 25px; PADDING-TOP: 10px
+}
+.rteBack {
+	BORDER-RIGHT: 1px outset; PADDING-RIGHT: 2px; BORDER-TOP: 1px outset; PADDING-LEFT: 2px; BACKGROUND: #d3d3d3; PADDING-BOTTOM: 2px; BORDER-LEFT: 1px outset; PADDING-TOP: 2px; BORDER-BOTTOM: 1px outset; LETTER-SPACING: 0px
+}
+.rteBack TBODY TR TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #d3d3d3; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.rteBack TR TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #d3d3d3; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.actions {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 15px 0px 0px; PADDING-TOP: 0px; HEIGHT: 30px
+}
+.actions LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 5px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.actions A.img {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.actions A.img:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #333
+}
+#nav {
+	FONT-SIZE: 15px; MARGIN: 15px; BACKGROUND-COLOR: #fef8ce; xpadding-bottom: 10px
+}
+#nav_bucket {
+	MARGIN: 15px
+}
+#nav LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 16px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; WHITE-SPACE: nowrap; LIST-STYLE-TYPE: none
+}
+#nav UL {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 10px; MARGIN: 5px; PADDING-TOP: 5px
+}
+#nav LI.helpselect {
+	FONT-WEIGHT: bold; BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/classifieds/nav_bullet.gif) no-repeat 0em 0.4em
+}
+#nav LI.iconCircleOrange {
+	FONT-WEIGHT: bold; BACKGROUND: url(http://pics.qa.ebaystatic.com/aw/pics/classifieds/iconCircleOrange.gif) no-repeat 0em 0.1em
+}
+#nav LI.iconCircleRed {
+	FONT-WEIGHT: bold; BACKGROUND: url(http://pics.qa.ebaystatic.com/aw/pics/classifieds/iconCircleRed.gif) no-repeat 0em 0.1em
+}
+#nav LI.iconCircleBlue {
+	FONT-WEIGHT: bold; BACKGROUND: url(http://pics.qa.ebaystatic.com/aw/pics/classifieds/iconCircleBlue.gif) no-repeat 0em 0.1em
+}
+#nav .listtitle {
+	PADDING-RIGHT: 8px; BORDER-TOP: #ceb503 1px solid; DISPLAY: block; PADDING-LEFT: 8px; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px; BORDER-BOTTOM: #ceb503 1px solid; BACKGROUND-COLOR: #fdeb6b
+}
+.navform {
+	MARGIN: 15px 15px 15px 0px
+}
+.divider {
+	BORDER-TOP: #bec3c7 1px solid; MARGIN: 5px 0px; BACKGROUND-COLOR: #ffffff
+}
+.legacyHeader_logo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; PADDING-BOTTOM: 5px; PADDING-TOP: 20px
+}
+.legacyHeader_imageAlign {
+	MARGIN: 0px 0px 2px; VERTICAL-ALIGN: middle
+}
+.legacyHeader_locationSmall {
+	PADDING-LEFT: 8px; FONT-WEIGHT: 600; FONT-SIZE: 1.3em; PADDING-BOTTOM: 10px; VERTICAL-ALIGN: bottom; COLOR: #404040; LETTER-SPACING: -1px; BACKGROUND-COLOR: #ffffff
+}
+.legacyHeader_rightLinks {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; PADDING-TOP: 10px
+}
+.myadstab UL {
+	MARGIN: 0px 0px 5px
+}
+.myadstab LI {
+	BORDER-RIGHT: gray 1px solid; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; xfont-size: 0.9em
+}
+.myadstab LI A {
+	FONT-WEIGHT: normal
+}
+.myadstab .header {
+	BORDER-RIGHT: 0px; FONT-WEIGHT: normal
+}
+.myadstab .lastitem {
+	BORDER-RIGHT: 0px
+}
+.myadsImageLink {
+	BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tableheader TH {
+	PADDING-RIGHT: 6px; BORDER-TOP: #77a61a 1px solid; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; LINE-HEIGHT: 160%; PADDING-TOP: 6px; BORDER-BOTTOM: #77a61a 1px solid; BACKGROUND-COLOR: #9ad429; TEXT-ALIGN: left
+}
+.tableHeader TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; PADDING-TOP: 5px; xfont-size: 0.9em
+}
+.tableDefault TH {
+	PADDING-RIGHT: 6px; BORDER-TOP: #77a61a 1px solid; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; LINE-HEIGHT: 160%; PADDING-TOP: 6px; BORDER-BOTTOM: #77a61a 1px solid; BACKGROUND-COLOR: #9ad429; TEXT-ALIGN: left
+}
+.tableDefault TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; PADDING-TOP: 5px; BORDER-BOTTOM: #98a7b8 1px solid; xfont-size: 0.9em
+}
+.myadtitle {
+	DISPLAY: inline; FONT-WEIGHT: bolder; FONT-SIZE: 13px
+}
+.myadtitlelinks {
+	DISPLAY: inline; FONT-SIZE: 80%
+}
+.paginationBottom {
+	PADDING-RIGHT: 0.1em; PADDING-LEFT: 0.1em; FONT-SIZE: 0.9em; PADDING-BOTTOM: 1.5em; PADDING-TOP: 0px
+}
+.paginationBottom A {
+	PADDING-RIGHT: 0.2em; PADDING-LEFT: 0.2em; FONT-SIZE: 0.9em; PADDING-BOTTOM: 0px; PADDING-TOP: 0em
+}
+.paginationBottom B {
+	PADDING-RIGHT: 0.2em; PADDING-LEFT: 0.2em; FONT-SIZE: 0.9em; PADDING-BOTTOM: 0px; PADDING-TOP: 0em
+}
+.paginationBottom STRONG {
+	PADDING-RIGHT: 0.2em; PADDING-LEFT: 0.2em; FONT-SIZE: 0.9em; PADDING-BOTTOM: 0px; PADDING-TOP: 0em
+}
+.toplink {
+	BORDER-RIGHT: gray 1px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+.toplinklast {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 10px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+.pagetitle2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: medium; PADDING-BOTTOM: 0.2em; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #bec3c7 1px solid
+}
+.bulletlist {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1.2em; PADDING-BOTTOM: 0.2em; MARGIN: 0px 0px 0px 1.2em; PADDING-TOP: 0.2em; LIST-STYLE-TYPE: disc
+}
+#content .bullet UL {
+	MARGIN: 10px 0px 0px
+}
+.bullet LI {
+	MARGIN: 0px 0px 0px 15px; LIST-STYLE-TYPE: disc
+}
+.bulletindent {
+	MARGIN-LEFT: 30px
+}
+.bulletindent LI {
+	LIST-STYLE-TYPE: disc
+}
+.p {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 15px 0px 0px; PADDING-TOP: 0px
+}
+.pnone {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.cal {
+	PADDING-RIGHT: 0.6em; PADDING-LEFT: 0.6em; PADDING-BOTTOM: 1.6em; WIDTH: 16em; PADDING-TOP: 0.6em; BACKGROUND-COLOR: #fef8ce; TEXT-ALIGN: center
+}
+.calmini {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.4em; PADDING-TOP: 0px; BACKGROUND-COLOR: #fef8ce; TEXT-ALIGN: center
+}
+.caltable {
+	FONT-SIZE: 13px; WIDTH: 16em; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center
+}
+.calmonth {
+	FONT-WEIGHT: bold
+}
+#nav .caltable {
+	WIDTH: 100%
+}
+.calcurrentday {
+	BACKGROUND-COLOR: #ffec81
+}
+#changeLocMenu {
+	BORDER-RIGHT: gray 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: gray 1px solid; PADDING-LEFT: 10px; VISIBILITY: hidden; PADDING-BOTTOM: 10px; BORDER-LEFT: gray 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: gray 1px solid; POSITION: absolute; BACKGROUND-COLOR: lightyellow
+}
+#changeLocMenu TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 15px; FONT-SIZE: 13px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.ratead {
+	BORDER-RIGHT: #bec3c7 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #bec3c7 1px solid; PADDING-LEFT: 8px; FONT-SIZE: 0.8em; PADDING-BOTTOM: 8px; BORDER-LEFT: #bec3c7 1px solid; PADDING-TOP: 8px; BORDER-BOTTOM: #bec3c7 1px solid
+}
+#search-results {
+	MARGIN-BOTTOM: 3px; VERTICAL-ALIGN: top; WIDTH: 100%; BORDER-BOTTOM: #98a7b8 1px solid; TEXT-ALIGN: left
+}
+#search-results thx {
+	PADDING-RIGHT: 3px; BORDER-TOP: #98a7b8 1px solid; PADDING-LEFT: 3px; FONT-WEIGHT: normal; PADDING-BOTTOM: 3px; MARGIN: 0px; LINE-HEIGHT: 160%; PADDING-TOP: 3px; BORDER-BOTTOM: #98a7b8 1px solid; BACKGROUND-COLOR: #dce4ec; TEXT-ALIGN: left
+}
+#search-results TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; PADDING-TOP: 5px
+}
+#search-results .ad-description {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #98a7b8 1px solid
+}
+#search-results .thumbnail {
+	BORDER-RIGHT: #0447b3 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #0447b3 1px solid; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; BORDER-LEFT: #0447b3 1px solid; MARGIN-RIGHT: 5px; PADDING-TOP: 0px; BORDER-BOTTOM: #0447b3 1px solid
+}
+#no-results {
+	MARGIN: 20px
+}
+#search-tips {
+	BORDER-TOP: #bec3c7 1px solid; MARGIN-TOP: 10px; PADDING-TOP: 10px
+}
+#search-nav LI {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: black; WHITE-SPACE: nowrap
+}
+#search-nav A {
+	FONT-WEIGHT: normal
+}
+#search-tips UL {
+	MARGIN: 10px 10px 10px 16px; LIST-STYLE-TYPE: disc
+}
+#search-tip {
+	BORDER-RIGHT: #98a7b8 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #98a7b8 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; BORDER-LEFT: #98a7b8 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #98a7b8 1px solid; BACKGROUND-COLOR: #dce4ec
+}
+#search-tip LI {
+	FONT-WEIGHT: bold
+}
+#selected-options {
+	BORDER-RIGHT: #f4e172 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #f4e172 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 5px; BORDER-LEFT: #f4e172 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #f4e172 1px solid; BACKGROUND-COLOR: #fff
+}
+#selected-options LI {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#selected-options LI LI {
+	FONT-WEIGHT: normal
+}
+#search-nav .bulletfilter {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#search-nav UL {
+	MARGIN: 2px 5px 0px 2px
+}
+#search-nav .bulletfilter UL {
+	MARGIN: 2px 5px 0px 6px
+}
+#search-nav .bulletfilter LI {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 6px; BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/classifieds/bullet.gif) no-repeat 0em 0.5em; PADDING-BOTTOM: 0px; PADDING-TOP: 1px
+}
+#search-nav .separatedfilter {
+	PADDING-RIGHT: 0px; BORDER-TOP: #b2b2b2 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; MARGIN: 5px 5px 0px; PADDING-TOP: 4px
+}
+.searchsummary {
+	FONT-WEIGHT: normal
+}
+.dateSeparator {
+	BACKGROUND-COLOR: #c0ea6e
+}
+.ad-desc UL {
+	MARGIN: 0px 0px 0px 20px; LIST-STYLE-TYPE: disc
+}
+.stack-adsense-title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 6px; MARGIN: 0px 0px 5px; PADDING-TOP: 6px; BACKGROUND-COLOR: #9ad429
+}

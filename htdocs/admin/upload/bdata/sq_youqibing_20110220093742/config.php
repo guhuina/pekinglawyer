@@ -1,0 +1,23 @@
+<?php
+	$b_table="admin,admin_user,book,dept,member,n_article,n_class";
+	$tb[admin]=1;
+$tb[admin_user]=1;
+$tb[book]=1;
+$tb[dept]=1;
+$tb[member]=1;
+$tb[n_article]=1;
+$tb[n_class]=1;
+
+	$b_baktype=0;
+	$b_filesize=300;
+	$b_bakline=500;
+	$b_autoauf=1;
+	$b_dbname="sq_youqibing";
+	$b_stru=1;
+	$b_strufour=0;
+	$b_dbchar="auto";
+	$b_beover=0;
+	$b_insertf="replace";
+	$b_autofield=",,";
+	$b_bakdatatype=0;
+	?>

@@ -1,0 +1,4 @@
+<div class="foot cont">
+<a href="about.php?id=97">辩护律师</a> | <a href="about.php?id=100">律师团队</a> | <a href="about.php?id=98">在线咨询</a> | <a href="about.php?id=101">关于我们</a> | <a href="news.php?cid=25">合同法务</a> | <a href="news.php?cid=26">公司法务</a> | <a href="news.php?cid=13">法律常识</a> | <a href="news.php?cid=27">知识产权</a> | <a href="news.php?cid=9">常见问题</a> | <a href="news.php?cid=29">法律顾问</a><br />
+Copyright 2010-2088   京ICP备11003226号   北京刑事辩护网    北京市朝阳区金和东路20号正大中心2号楼24-25层<br />
+电话：13269109326  邮箱：714103208@QQ.COM <a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">京ICP备09050384号-2</a><script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279879267'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1279879267%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></div>

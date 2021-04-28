@@ -1,0 +1,33 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#table2{
+     border:1px solid #000000;//为表格外面画线
+     width:500px;
+     padding:0px;
+     border-collapse:collapse;//由于td四周画线，所以某些线会绘制两次，会变粗，使用这个属性可以自动合并同类项
+     border-spacing:0px;//表格间无需空隙
+}
+#table2 td{
+     border:1px solid #000000;//为td四周画线
+	 border-collapse:collapse;
+	 border-spacing:0px;
+}
+#table1{
+     background-color:#000000;//表格整体背景黑色，也就是缝隙间的颜色
+     width:500px;
+     padding:0px;
+     border-spacing:1px;//表格缝隙1个px
+}
+#table1 td{
+     background-color:#FFFFFF;
+}
